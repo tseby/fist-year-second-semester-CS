@@ -1,2 +1,2 @@
 # fist-year-second-semester-CS
-Main task for the second semester
+In here I am learning the easiest sorting algorithms.
