@@ -1,4 +1,4 @@
-package CollectionBubbleSorting;
+/*package CollectionBubbleSorting;
 
 import POLITEX_sorting.RandMethod;
 
@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-/*
+
 Размер массивов 26, 52, 104, 208, 416, 832, 1664
 Сортировки: пузырьковая, отбор
 Блок-схема: пузырьковая
- */
+
 public class SortingCollection {
 
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class SortingCollection {
 
         List<Integer> arra_list_to_sort = new ArrayList<>();
         for (int i = 0; i < 26; i++) {
-            arra_list_to_sort.add(sort.getRandomNumber(1, 100));
+            arra_list_to_sort.add(sort.getRandomNumber(1, 100,0));
         }
 
         for (int i = 0; i < arra_list_to_sort.size() - 1; i++) {
@@ -39,3 +39,4 @@ public class SortingCollection {
 
     }
 }
+*/

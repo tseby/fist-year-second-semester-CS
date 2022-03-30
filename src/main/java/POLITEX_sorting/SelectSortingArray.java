@@ -2,7 +2,7 @@ package POLITEX_sorting;
 
 public class SelectSortingArray {
 
-    public static void selectSorting(int numbers[]){
+    public static void selectSorting(Integer numbers[]){
         int min, tmp;
         for(int i = 0; i < numbers.length-1; i++){
             min = i;
