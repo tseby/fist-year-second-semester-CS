@@ -1,5 +1,7 @@
 package CollectionBubbleSorting;
 
+import POLITEX_sorting.RandMethod;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

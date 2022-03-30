@@ -1,7 +1,8 @@
-package ArrayBubbleSorting;
+package POLITEX_sorting;
 
-public class SortingArray {
-    public static void main(String[] args) {
+public class BubbleSortingArray {
+
+    public static void BubbleSorting(String[] args) {
         int[] array = {2, 1, 6, 4, 8, 10, 9};
         int count;
 
