@@ -3,9 +3,8 @@ package POLITEX_sorting;
 public class BubbleSortingArray {
 
     public static void BubbleSorting(Integer numbers[]) {
-        int[] numbers = {2, 1, 6, 4, 8, 10, 9};
-        int count;
 
+        int count;
         do {
             count = 0;
             for (int i = 0; i < numbers.length - 1; i++) {

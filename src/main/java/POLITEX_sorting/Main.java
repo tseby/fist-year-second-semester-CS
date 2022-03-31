@@ -23,8 +23,8 @@ public class Main {
         int sorting_size = scanner.nextInt();
 
         switch (sorting_choice) {
-            case 1 -> SelectSortingArray.selectSorting(RandMethod.getRandomNumber(0,sorting_size));
-            case 2 -> BubbleSortingArray.BubbleSorting(sorting_size);
+           // case 1 -> SelectSortingArray.selectSorting(RandMethod.getRandomNumber(0,sorting_size));
+           // case 2 -> BubbleSortingArray.BubbleSorting(RandMethod.getRandomNumber(0,sorting_size));
         }
 
     }

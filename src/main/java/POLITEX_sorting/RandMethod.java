@@ -6,19 +6,16 @@ import java.util.Random;
 
 public class RandMethod {
 
-    public static Integer[] getRandomNumber(int min, int max) {
-
+    public static int[] getRandomNumber(int min, int max) {
         List<Integer> list_to_array = new ArrayList<>();
-
         for (int i = 0; i < max; i++) {
             Random random = new Random();
             list_to_array.add(random.nextInt(max - min) + min);
         }
-
-        Integer[] array_to_sort = new Integer[list_to_array.size()];
-        list_to_array.toArray(array_to_sort);
-
-        return array_to_sort;
+        return list_to_array.stream().mapToInt(i->i).toArray();
     }
 
 }
+//int[] array_to_sort = new int[list_to_array.size()];
+//array_to_sort.toArray(list_to_array);
+//list_to_array.toArray(array_to_sort);
