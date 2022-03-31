@@ -11,7 +11,10 @@ public class RandMethodTest {
     public void IfAddeedNElementsThenArrayIsOfNSize() {
         int[] test_array =  RandMethod.getRandomNumber(0,26);
         Assertions.assertEquals(26,test_array.length);
-
+        for (int i: test_array
+             ) {
+            System.out.println(i);
+        }
     }
 
     @Test

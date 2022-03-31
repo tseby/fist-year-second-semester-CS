@@ -18,7 +18,7 @@ public class SelectSortingArray {
         System.out.println();
         for (int nums: numbers
         ) {
-            System.out.print(nums + ",");
+            System.out.print(nums + ","+"p");
         }
         }
 
