@@ -19,7 +19,7 @@ public class BubbleSortingArray {
         System.out.println();
         for (int nums: numbers
              ) {
-            System.out.print(nums + ","+"h");
+            System.out.print(nums + ",");
         }
     }
 }

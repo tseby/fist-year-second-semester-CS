@@ -23,6 +23,15 @@ public class Main {
                 7) 1664
                 """);
         int sorting_size = scanner.nextInt();
+        switch (sorting_size){
+            case 1 -> sorting_size = 26;
+            case 2 -> sorting_size = 56;
+            case 3 -> sorting_size = 104;
+            case 4 -> sorting_size = 208;
+            case 5 -> sorting_size = 416;
+            case 6 -> sorting_size = 832;
+            case 7 -> sorting_size = 1664;
+        }
 
         switch (sorting_choice) {
            case 1 -> SelectSortingArray.selectSorting(RandMethod.getRandomNumber(0,sorting_size));
