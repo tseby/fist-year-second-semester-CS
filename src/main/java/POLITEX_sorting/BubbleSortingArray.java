@@ -21,5 +21,6 @@ public class BubbleSortingArray {
              ) {
             System.out.print(nums + ",");
         }
+        System.out.println("Количество пробегов до окончания сортировки: " + count);//возвращает 0
     }
 }

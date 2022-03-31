@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.print("""
                 Choose sorting method
-                1)Bubble sorting;
-                2)Select sort.
+                1)Select sort
+                2)Bubble sort
                 """);
         int sorting_choice = scanner.nextInt();
         System.out.print("""
