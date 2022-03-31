@@ -2,7 +2,7 @@ package POLITEX_sorting;
 
 public class BubbleSortingArray {
 
-    public static void BubbleSorting(Integer numbers[]) {
+    public static void BubbleSorting(int numbers[]) {
 
         int count;
         do {
@@ -19,7 +19,7 @@ public class BubbleSortingArray {
         System.out.println();
         for (int nums: numbers
              ) {
-            System.out.println(nums + ",");
+            System.out.print(nums + ",");
         }
     }
 }

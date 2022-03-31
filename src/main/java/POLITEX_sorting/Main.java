@@ -3,9 +3,7 @@ package POLITEX_sorting;
 import java.util.Scanner;
 
 public class Main {
-    //private static BubbleSortingArray bubble = new BubbleSortingArray();
-    //private static SelectSortingArray select = new SelectSortingArray();
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.println("Choose sorting method" +
@@ -23,8 +21,8 @@ public class Main {
         int sorting_size = scanner.nextInt();
 
         switch (sorting_choice) {
-           // case 1 -> SelectSortingArray.selectSorting(RandMethod.getRandomNumber(0,sorting_size));
-           // case 2 -> BubbleSortingArray.BubbleSorting(RandMethod.getRandomNumber(0,sorting_size));
+           case "1" -> SelectSortingArray.selectSorting(RandMethod.getRandomNumber(0,sorting_size));
+           case "2" -> BubbleSortingArray.BubbleSorting(RandMethod.getRandomNumber(0,sorting_size));
         }
 
     }

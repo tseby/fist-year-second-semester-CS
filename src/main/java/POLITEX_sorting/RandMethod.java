@@ -14,8 +14,4 @@ public class RandMethod {
         }
         return list_to_array.stream().mapToInt(i->i).toArray();
     }
-
 }
-//int[] array_to_sort = new int[list_to_array.size()];
-//array_to_sort.toArray(list_to_array);
-//list_to_array.toArray(array_to_sort);
