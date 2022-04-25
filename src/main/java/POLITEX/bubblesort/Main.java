@@ -1,8 +1,9 @@
-package POLITEX_sorting;
+package POLITEX.bubblesort;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main{
+
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -34,8 +35,8 @@ public class Main {
         }
 
         switch (sorting_choice) {
-           case 1 -> SelectSortingArray.selectSorting(RandMethod.getRandomNumber(0,sorting_size));
-           case 2 -> BubbleSortingArray.BubbleSorting(RandMethod.getRandomNumber(0,sorting_size));
+           case 1 -> SelectSortingArray.selectSorting(Utility.getRandomNumber(0,sorting_size));
+           case 2 -> BubbleSortingArray.BubbleSorting(Utility.getRandomNumber(0,sorting_size));
         }
 
     }

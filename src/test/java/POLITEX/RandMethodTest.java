@@ -1,4 +1,7 @@
-package POLITEX_sorting;
+package POLITEX;
+import POLITEX.bubblesort.BubbleSortingArray;
+import POLITEX.bubblesort.Utility;
+import POLITEX.bubblesort.SelectSortingArray;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,8 +11,8 @@ public class RandMethodTest {
 
 
     @Test
-    public void IfAddeedNElementsThenArrayIsOfNSize() {
-        int[] test_array =  RandMethod.getRandomNumber(0,26);
+    public void IfAddedNElementsThenArrayIsOfNSize() {
+        int[] test_array =  Utility.getRandomNumber(0,26);
         Assertions.assertEquals(26,test_array.length);
         for (int i: test_array
              ) {

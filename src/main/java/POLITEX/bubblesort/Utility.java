@@ -1,10 +1,10 @@
-package POLITEX_sorting;
+package POLITEX.bubblesort;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class RandMethod {
+public class Utility {
 
     public static int[] getRandomNumber(int min, int max) {
         List<Integer> list_to_array = new ArrayList<>();

@@ -1,9 +1,12 @@
-package POLITEX_sorting;
+package POLITEX.bubblesort;
+
+import org.springframework.util.StopWatch;
 
 public class BubbleSortingArray {
 
     public static void BubbleSorting(int numbers[]) {
-
+        StopWatch stopWatch = new StopWatch();
+        stopWatch.start();
         int count;
         do {
             count = 0;
@@ -17,10 +20,12 @@ public class BubbleSortingArray {
             }
         } while (count > 0);
         System.out.println();
-        for (int nums: numbers
-             ) {
-            System.out.print(nums + ",");
+        for (int nums : numbers
+        ) {
+            System.out.print(nums + ",\n");
         }
+        stopWatch.stop();
         System.out.println("Количество пробегов до окончания сортировки: " + count);//возвращает 0
+        System.out.println("Сортировка заняла " + stopWatch.getTotalTimeMillis()+ " милисек.");
     }
 }
