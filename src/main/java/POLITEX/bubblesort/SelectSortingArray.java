@@ -25,7 +25,7 @@ public class SelectSortingArray {
         System.out.println();
         for (int nums : numbers
         ) {
-            System.out.print(nums + ",\n");
+            System.out.print(nums + ",");
         }
         stopWatch.stop();
         System.out.println("Количество пробегов до окончания сортировки: " + tries);
