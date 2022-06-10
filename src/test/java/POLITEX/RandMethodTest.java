@@ -1,7 +1,7 @@
 package POLITEX;
-import POLITEX.bubblesort.BubbleSortingArray;
-import POLITEX.bubblesort.Utility;
-import POLITEX.bubblesort.SelectSortingArray;
+import sorting_algos.BubbleSortingArray;
+import sorting_algos.Utility;
+import sorting_algos.SelectSortingArray;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

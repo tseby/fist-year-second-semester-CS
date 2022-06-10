@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Bubble sorting algo" />
         <module name="Bubble_sorting_algo" />
+        <module name="fist-year-second-semester-CS" />
       </profile>
     </annotationProcessing>
   </component>

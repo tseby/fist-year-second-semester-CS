@@ -1,4 +1,4 @@
-package POLITEX.bubblesort;
+package sorting_algos;
 
 import java.util.ArrayList;
 import java.util.List;
